@@ -1,0 +1,16 @@
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/service/impl/ContaBancariaService.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/domain/dto/ContaBancariaDTOString.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/controller/ContaBancariaController.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/converter/ConverterHelper.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/exception/RestExceptionHandler.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/popular_csv/PopularCSV.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/domain/dto/ContaBancariaDTODefault.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/response/Response.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/util/CalculoUtil.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/config/JpaConfig.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/TestPagApplication.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/domain/entity/ContaBancariaEntity.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/service/ContaBancariaInterface.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/util/ConverterToString.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/exception/ApplicationException.java
+/home/cd/Documentos/TestPag/src/main/java/testpag/com/br/repository/ContaBancariaRepository.java

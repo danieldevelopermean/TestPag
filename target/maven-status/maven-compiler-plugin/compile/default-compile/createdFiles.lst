@@ -1,0 +1,16 @@
+testpag/com/br/util/ConverterToString.class
+testpag/com/br/TestPagApplication.class
+testpag/com/br/exception/ApplicationException.class
+testpag/com/br/service/impl/ContaBancariaService.class
+testpag/com/br/converter/ConverterHelper.class
+testpag/com/br/util/CalculoUtil.class
+testpag/com/br/domain/dto/ContaBancariaDTODefault.class
+testpag/com/br/config/JpaConfig.class
+testpag/com/br/service/ContaBancariaInterface.class
+testpag/com/br/domain/dto/ContaBancariaDTOString.class
+testpag/com/br/response/Response.class
+testpag/com/br/domain/entity/ContaBancariaEntity.class
+testpag/com/br/popular_csv/PopularCSV.class
+testpag/com/br/exception/RestExceptionHandler.class
+testpag/com/br/controller/ContaBancariaController.class
+testpag/com/br/repository/ContaBancariaRepository.class

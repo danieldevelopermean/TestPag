@@ -1,0 +1,40 @@
+Postman:
+
+Listar todas as Contas ->
+Verbo: GET
+url: http://localhost:9000/api/account
+
+
+Criar uma nova Conta ->
+Verbo: POST
+url: http://localhost:9000/api/account
+body:
+{
+    "nome": "teste1",
+    "numeroConta": "000.0000",
+    "agencia": "000-0",
+    "chequeEspecialLiberado": 0,
+    "saldo" : 10000.00,
+    "cheque_especial": 100020.00,
+    "taxa": 2.0
+}
+
+Buscar Conta com filtro(nome, agencia , cheque especial liberado) -> 
+Verbo: GET
+url http://localhost:9000/api/account/{nome}/{agencia}/{chequeLiberado(0ou1)}
+EX:
+url: http://localhost:9000/api/account/teste1/000-0/0
+
+
+Buscar Conta com filtro(numero conta) -> 
+Verbo: GET
+url http://localhost:9000/api/account/one/{numeroConta}
+EX:
+url: http://localhost:9000/api/account/one/11.0000
+
+
+insert into conta_bancaria (id, nome,numero_conta,agencia,cheque_especial_liberado,
+saldo,cheque_especial,taxa) values (3, 'teste', '000', '1111', 0, 15000, 1000, 2.0 );
+
+insert into conta_bancaria (id,nome,numero_conta,agencia,cheque_especial_liberado,
+saldo,cheque_especial,taxa) values (2,'Gabrielly Correia Pereira','636497','1135',0,13425.58,0,2.99)

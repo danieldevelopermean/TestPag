@@ -29,13 +29,17 @@ sudo docker ps -a
 Chamadas Postman:
 
 Listar todas as Contas ->
+
 Verbo: GET
+
 url: http://localhost:9000/api/account
 --------------
 
 
 Criar uma nova Conta ->
+
 Verbo: POST
+
 url: http://localhost:9000/api/account
 body:
 {
@@ -51,7 +55,9 @@ body:
 
 
 Buscar Conta com filtro(nome, agencia , cheque especial liberado) -> 
+
 Verbo: GET
+
 url http://localhost:9000/api/account/{nome}/{agencia}/{chequeLiberado(0ou1)}
 EX:
 url: http://localhost:9000/api/account/teste1/000-0/0
@@ -59,7 +65,9 @@ url: http://localhost:9000/api/account/teste1/000-0/0
 
 
 Buscar Conta com filtro(numero conta) -> 
+
 Verbo: GET
+
 url http://localhost:9000/api/account/one/{numeroConta}
 EX:
 url: http://localhost:9000/api/account/one/11.0000
